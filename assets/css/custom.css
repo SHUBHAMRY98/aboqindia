@@ -137,7 +137,7 @@
             flex: 1;
             max-width: 576px;
             margin: 0px auto; /* Default center placement */
-            padding: 25px;
+            padding: 20px;
             transition: transform 0.35s ease, margin 0.35s ease;
             position: relative;
         }
