@@ -12,6 +12,10 @@
             padding: 0px;
         }
 
+       a{
+        text-decoration:none;
+       }
+
         marquee{
             display: block;
             margin: 0;
