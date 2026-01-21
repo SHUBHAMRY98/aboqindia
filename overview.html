@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+       <link rel="stylesheet" href="assets/css/custom.css">
+
+    
+</head>
+
+<body>
+
+     <marquee> Stay Home. Stay Safe. Recharge Electricity Online</marquee>
+
+<div class="header">
+   
+    <div class="top-bar">
+        <div class="hamburger" id="hamburger" onclick="toggleSidebar()">☰</div>
+        <div class="unit">UNIT O-523</div>
+    </div>
+</div>
+
+<div class="layout" id="layout-container">
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <a href="overview.html"><i class="fas fa-home"></i></a>
+            <a href="recharge.html"><i class="fas fa-bolt" style="color: #c0004f;"></i></a>
+            <a href="report.html"><i class="fas fa-chart-bar"></i></a>
+            <a href="setting.html"><i class="fas fa-cog"></i></a>
+            <a href="profile.html""><i class="fas fa-user"></i></a>
+            <a href="notice.html"><i class="fas fa-bell"></i></a>
+            
+            
+        </nav>
+    </aside>
+
+    <main class="content">
+        <div class="content-top">
+            <div class="content-top-left"> <h2>OVERVIEW</h2></div>
+            <div class="content-top-right"><i class="fas fa-refresh"></i></div>
+        </div>
+        
+<div class="card">
+        <h3>AVAILABLE BALANCE</h3>
+        <div class="info-row">
+            <span class="label">Rs</span>
+            <span class="separator">:</span>
+            <span class="value" style="color: #d9534f;">-336.75</span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">UPDATED ON</span>
+            <span class="separator">:</span>
+            <span class="value" >2026-01-20 15:20:10</span>
+        </div>
+        
+    </div>
+
+    <div class="card">
+        <h3>GRID <span class="status-dot"></span></h3>
+        <div class="info-row">
+            <span class="label">Start Time</span>
+            <span class="separator">:</span>
+            <span class="value">2026-01-18 12:30:24</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Unit</span>
+            <span class="separator">:</span>
+            <span class="value">2236.92 kVAh</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>DG</h3>
+        <div class="info-row">
+            <span class="label">Status</span>
+            <span class="separator">:</span>
+            <span class="value" style="color: #d9534f;">OFF</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Unit</span>
+            <span class="separator">:</span>
+            <span class="value">9.64 kvah</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="info-row">
+             
+              
+            <span class="label" ><h3>Current Status </h3></span>
+           
+            <h3><span class="value" style="color: #003b66; text-align:end;">Normal</span></h3>
+        </div>
+        </div>
+
+
+         <div class="chart-box">
+        <h3>TODAY'S CONSUMPTION</h3>
+
+        <div class="charts">
+        <canvas id="gridChart"></canvas>
+        </div>
+        
+        <div class="legend">
+            <span><div class="dot" style="background:#E9641B"></div> DG</span>
+            <span><div class="dot" style="background:#154c79"></div> GRID</span>
+        </div>
+
+        <div class="list">
+            <div class="row"><span>GRID</span><strong>11.48</strong></div>
+            <div class="row"><span>DG</span><strong>0.00</strong></div>
+            <div class="row"><span>Fixed Charges</span><strong>267.31</strong></div>
+            <div class="row"><span>TOTAL</span><strong>278.79</strong></div>
+        </div>
+    </div>
+
+
+
+    </main>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

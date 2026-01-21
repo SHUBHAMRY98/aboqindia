@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+       <link rel="stylesheet" href="assets/css/custom.css">
+
+    
+</head>
+
+<body>
+
+     <marquee> Stay Home. Stay Safe. Recharge Electricity Online</marquee>
+
+<div class="header">
+   
+    <div class="top-bar">
+        <div class="hamburger" id="hamburger" onclick="toggleSidebar()">☰</div>
+        <div class="unit">UNIT O-523</div>
+    </div>
+</div>
+
+<div class="layout" id="layout-container">
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <a href="overview.html"><i class="fas fa-home"></i></a>
+            <a href="recharge.html"><i class="fas fa-bolt" style="color: #c0004f;"></i></a>
+            <a href="report.html"><i class="fas fa-chart-bar"></i></a>
+            <a href="setting.html"><i class="fas fa-cog"></i></a>
+            <a href="profile.html""><i class="fas fa-user"></i></a>
+            <a href="notice.html"><i class="fas fa-bell"></i></a>
+            
+            
+        </nav>
+    </aside>
+
+    <main class="content">
+        <div class="content-top">
+            <div class="content-top-left"> <h2>RECHARGE</h2></div>
+            <div class="content-top-right"><i class="fas fa-refresh"></i></div>
+        </div>
+          
+
+            <!-- Balance -->
+    <div class="card recharge-card">
+        <h3>AVAILABLE BALANCE <span style="float:right">-336.75</span></h3>
+        <div class="row"><span>LAST UPDATED ON</span><span>2026-01-17 15:30:13</span></div>
+        <div class="row"><span>RECENT RECHARGE</span><span>2026-01-17 10:42:31</span></div>
+    </div>
+
+    <!-- Online -->
+    <div class="card recharge-card">
+        <div class="section-head" onclick="toggleSection(this)">
+            ONLINE
+            <span>⌄</span>
+        </div>
+        <div class="section-body">
+            <div class="radio">
+                <input type="radio"> Select Payment Gateways
+            </div>
+            <button class="submit-btn">Submit</button>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+
+    <!-- Coupon -->
+    <div class="coupon">
+        COUPON
+        <span>⌄</span>
+    </div>
+
+    <!-- History -->
+
+    <div class="history">
+    <h3>RECHARGE HISTORY</h3>
+
+        <div class="card">
+        
+        <div class="info-row">
+            <span class="label">Date</span>
+            <span class="separator">:</span>
+            <span class="value">2026-01-12 09:43:05</span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Recharged with</span>
+            <span class="separator">:</span>
+            <span class="value" >ZP265122295634109813</span>
+        </div>
+        
+        <div class="info-row">
+            <span class="label">Amount</span>
+            <span class="separator">:</span>
+            <span class="value" >₹ 1500.00</span>
+        </div>
+    </div>
+
+
+       <div class="card">
+        
+        <div class="info-row">
+            <span class="label">Date</span>
+            <span class="separator">:</span>
+            <span class="value">2026-01-08 14:20:09</span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Recharged with</span>
+            <span class="separator">:</span>
+            <span class="value" >ZP265118223439427855</span>
+        </div>
+        
+        <div class="info-row">
+            <span class="label">Amount</span>
+            <span class="separator">:</span>
+            <span class="value" >₹ 1000.00</span>
+        </div>
+    </div>
+
+
+
+    <div class="card">
+        
+        <div class="info-row">
+            <span class="label">Date</span>
+            <span class="separator">:</span>
+            <span class="value">2026-01-08 11:32:38</span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Recharged with</span>
+            <span class="separator">:</span>
+            <span class="value" >ZP265118314719395787</span>
+        </div>
+        
+        <div class="info-row">
+            <span class="label">Amount</span>
+            <span class="separator">:</span>
+            <span class="value" >₹ 200.00</span>
+        </div>
+    </div>
+
+    </div>
+
+    </main>
+</div>
+
+
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

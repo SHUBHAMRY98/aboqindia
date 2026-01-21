@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  
+     <link rel="stylesheet" href="assets/css/custom.css">
+
+    
+</head>
+
+<body>
+
+     <marquee> Stay Home. Stay Safe. Recharge Electricity Online</marquee>
+
+<div class="header">
+   
+    <div class="top-bar">
+        <div class="hamburger" id="hamburger" onclick="toggleSidebar()">☰</div>
+        <div class="unit">UNIT O-523</div>
+    </div>
+</div>
+
+<div id="auth-container"></div>
+
+<div class="layout" id="layout-container">
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <a href="overview.html"><i class="fas fa-home"></i></a>
+            <a href="recharge.html"><i class="fas fa-bolt" style="color: #c0004f;"></i></a>
+            <a href="report.html"><i class="fas fa-chart-bar"></i></a>
+            <a href="setting.html"><i class="fas fa-cog"></i></a>
+
+            <a href="profile.html"><i class="fas fa-user"></i></a>
+
+            <a href="notice.html"><i class="fas fa-bell"></i></a>
+            
+            
+        </nav>
+    </aside>
+
+    <main class="content">
+        <div class="content-top">
+            <div class="content-top-left"> <h2>SETTING</h2></div>
+            <div class="content-top-right"><i class="fas fa-refresh"></i></div>
+        </div>
+          
+
+        <div class="card">
+          <h3 class="section-header">Consumption Exceeded Per Day</h3>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">Notify</span>
+                <span class="label-status">NO</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">Grid Unit</span>
+            </div>
+            <input type="text" class="input-field" value="0.000">
+        </div>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">DG Unit</span>
+            </div>
+            <input type="text" class="input-field" value="0.000">
+        </div>
+
+        </div>
+
+        
+        <div class="card">
+
+        <h3 class="section-header">Miscellaneous</h3>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">Low Balance</span>
+            </div>
+            <input type="text" class="input-field" value="-5000">
+        </div>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">Power Cut/Restore</span>
+                <span class="label-status">NO</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+
+
+        
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">Source Change</span>
+                <span class="label-status">NO</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">Notify Recharge</span>
+                <span class="label-status">YES</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="form-group">
+            <div class="label-box">
+                <span class="label-title">SMS Enable</span>
+                <span class="label-status">YES</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="footer-btns">
+            <button class="btn-reset">Re-set</button>
+            <button class="btn-save">Save</button>
+        </div>
+   
+        </div>
+
+    </main>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+   
+</body>
+</html>

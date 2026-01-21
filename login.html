@@ -1,0 +1,52 @@
+
+
+<div class="auth-overlay" id="authOverlay" onclick="closeAuth()"></div>
+
+<div class="auth-modal" id="authModal">
+    <span class="close-btn" onclick="closeAuth()">×</span>
+
+    <div class="auth-box" id="loginBox">
+        <h2>LOGIN</h2>
+        <input type="text"  placeholder="Username">
+        <input type="password"  id="loginPass" placeholder="Password">
+         
+          <div class="options">
+        <label>
+            <input type="checkbox"  onclick="togglePass('loginPass')">
+            Show Password
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Remember Me
+        </label>
+    </div>
+
+        <button class="submit-btn">Submit</button>
+
+          <a href="#"  class="forgot-link">Forgot Password?</a>
+
+        <p class="login-switch" >
+            No account?
+            <span onclick="openAuth('register')" >Register</span>
+        </p>
+    </div>
+
+    <div class="auth-box" id="registerBox">
+        <h2>REGISTER</h2>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" id="regPass" placeholder="Password">
+
+        <button class="submit-btn">Create Account</button>
+
+        <p class="login-switch">
+            Already have an account?
+            <span href="profile.html">Login</span>
+        </p>
+    </div>
+</div>
+
+
+
+
