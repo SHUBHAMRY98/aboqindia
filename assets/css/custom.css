@@ -66,14 +66,14 @@
         .sidebar.open {
         left: 0;
         top: 24px;
-        z-index: 999;
+        z-index: 99;
           }
 
         /* Nav Items */
         .nav {
             display: flex;
             flex-direction: column;
-            padding-top: 30px;
+            padding-top: 50px;
             gap: 15px;
             cursor: pointer;
         }
@@ -254,6 +254,8 @@
 
         @media(max-width: 768px) {
     /* Jab nav open ho, tab top-bar aur content dono shift honge */
+        
+         
     .nav-is-open .top-bar, 
     .nav-is-open .content {
         transform: translateX(0px); /* Adjust based on your need */
@@ -268,6 +270,7 @@
     }
 
      .sidebar.open {
+      z-index: 999;
         top: 0px;
           }
 
